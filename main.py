@@ -1,4 +1,4 @@
-# # Token = '5938698218:AAE8PUol2UNv_vtXR8W9_8fduIky8vIA94s'
+
 import logging
 
 from telegram.ext import Updater, CommandHandler, ConversationHandler, MessageHandler, Filters
@@ -10,7 +10,7 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-TOKEN = '5938698218:AAE8PUol2UNv_vtXR8W9_8fduIky8vIA94s'
+TOKEN = 'Token'
 
 
 def start(update, context):
